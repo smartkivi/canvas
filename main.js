@@ -10,9 +10,9 @@ cnavasInitial(canvas);
 listenToMouse(canvas);
 
 function cnavasInitial(canvas){
-    setCanvasSize()
+    setCanvasSize();
     window.onresize=function(){
-        setCanvasSize()
+        setCanvasSize();
     }
     function setCanvasSize(){
         var pageWidth = document.documentElement.clientWidth;
